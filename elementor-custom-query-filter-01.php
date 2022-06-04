@@ -1,3 +1,4 @@
+<?php
 add_action( 'elementor/query/custom_query_filter', 'minh_dz_query_with_2_post_type_same_terms', 1 );
 function minh_dz_query_with_2_post_type_same_terms( $query ) {
 	$condition = true;
@@ -65,3 +66,4 @@ function minh_dz_query_with_2_post_type_same_terms( $query ) {
 		</style>";
 	}
 }
+?>
